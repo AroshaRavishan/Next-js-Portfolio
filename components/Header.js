@@ -14,13 +14,15 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
           {/*logo*/}
           <Link href={'/'}>
+            <div>
             <Image
-              src={'/logo.svg'}
-              width={220}
+              src={'/arosha (2).png'}
+              width={350}
               height={48}
               alt=""
               priority={true}
             />
+            </div>
           </Link>
           {/*socials*/}
           <Socials />
